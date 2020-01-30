@@ -9,7 +9,7 @@ with open("file1.txt","w+", encoding = "utf-8") as file:
 
 
 with open("file1.txt","r+", encoding = "utf-8") as file:
-    # lines=file.readlines()
+    lines=file.readlines()
     # print(lines)
 
     for x in file:

@@ -5,7 +5,7 @@ def memoize(func):
         if args not in cache:
             print(f"Caching NEW value for {func.__name__}{args}")
             cache[args]=func(*args)
-        else:f
+        else:
             print(f"Using OLD value for {func.__name__}{args}")
         return cache[args]
     # print(cache)

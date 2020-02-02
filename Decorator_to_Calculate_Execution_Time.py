@@ -12,7 +12,7 @@ def logtime(func):
         print("\n\n")
 
         with open("LogTime.txt",'a',encoding='UTF-8') as LFile:
-            LFile.write("For function {} total time required for execution is {}.\n".format(func.__name__, total_time))
+            LFile.write(f"For function {func.__name__} total time required for execution is {total_time}.\n")
     return wrapper
 
 @logtime

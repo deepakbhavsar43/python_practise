@@ -4,7 +4,7 @@ def logtime(func):
     def wrapper(*args):
         start_time = time.time()
         print("Execution started at : ", start_time)
-        func(*args)
+        func(*args) 
         end_time = time.time()
         print("Execution ended at : ", end_time)
         total_time=end_time-start_time

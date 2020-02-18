@@ -7,6 +7,7 @@
 def logger(func):
     def log_func(*args):
         # logging.info( 'Running "{}" with arguments {}'.format(func.__name__, args))
+        print("calling from decorator")
         print(func(*args))
 
     # Necessary for closure to work (returning WITHOUT parenthesis)

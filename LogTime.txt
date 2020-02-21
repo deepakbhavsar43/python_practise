@@ -20,3 +20,5 @@ For function add total time required for execution is 3.000504493713379.
 For function sub total time required for execution is 4.000201463699341.
 For function add total time required for execution is 3.000438928604126.
 For function sub total time required for execution is 4.0015480518341064.
+For function add total time required for execution is 2.9994022846221924.
+For function sub total time required for execution is 3.999345302581787.
